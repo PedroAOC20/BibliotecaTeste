@@ -47,18 +47,18 @@ public class LibraryTest {
     @Test
     public void editBookTest_ifNotExist() {
         library.editBook(100, "Teste", "", "");
-        assertTrue(true); // Pode ser removido ou alterado para uma verificação mais significativa
+        assertTrue(true); 
     }
 
     @Test
     public void displayBooksTest_empty() {
-        library.displayBooks(); // Verifique a saída esperada se necessário
+        library.displayBooks(); 
     }
 
     @Test
     public void displayBooksTest_withBook() {
         library.addBook(book);
-        library.displayBooks(); // Verifique a saída esperada se necessário
+        library.displayBooks(); 
     }
 
     @Test
